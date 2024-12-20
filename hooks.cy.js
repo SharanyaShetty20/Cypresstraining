@@ -8,8 +8,8 @@ describe('Hooks', ()=>{
     })
     beforeEach(()=>{
         cy.visit("https://adactinhotelapp.com/index.php");
-        cy.get("#username").type("PreethiSri")
-        cy.get("#password").type("pree@0212")
+        cy.get("#username").type("John")
+        cy.get("#password").type("john@0212")
         cy.get("#login").click()
     })
     afterEach(()=>{
